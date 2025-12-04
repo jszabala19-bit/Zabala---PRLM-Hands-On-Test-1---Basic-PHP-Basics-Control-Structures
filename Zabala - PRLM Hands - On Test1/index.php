@@ -10,7 +10,7 @@
     $reg_price = $offer[1] * $offer[2];
     $offer_price = $offer[1] * $offer[3];
     $saving = $reg_price - $offer_price;
-    include 'header.php';
+    require 'header.php';
 ?>
 
 <!DOCTYPE html>
